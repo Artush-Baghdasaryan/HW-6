@@ -366,6 +366,12 @@ body {
             }
         }
 
+        @media(#{$mobile}) {
+            &--large-secondary-container {
+                padding-block: 30px;
+            }
+        }
+
         &__content {
             display: flex;
             flex-direction: column;
